@@ -18,13 +18,11 @@ router.post('/misitio/usuarios', user.addUsuarios);
 
 
 router.get('/misitio', (req,res) => {
-    res.send('<h2> Bienvenido a mi sitio web de Cálculo de Gastos. </h2>'+
+    res.send('<h2> holaaaaa buenaaas</h2>'+
             '<p> Navegación </p>' +
             '<nav>'+
-                '<a href="/misitio/about"> Acerca de nosotros </a>' +
-                '<a href="/misitio/contacto"> Contacto </a>' +
+
                 '<a href="/misitio/gastos"> Gastos </a>'+
-                '<a href="/misitio/usuarios"> Usuarios </a>'+
             '</nav>'
     );
 } );
